@@ -91,6 +91,22 @@ Applies standardized ordering, Model-View (MV) patterns, and correct Observation
 
 ---
 
+### 🚀 SwiftUI Performance Audit
+
+**Purpose**: Audit and improve SwiftUI runtime performance from code review and architecture.
+
+Focuses on identifying common SwiftUI performance pitfalls in view code and data flow, recommending targeted refactors, and guiding user-run Instruments profiling when code review is not enough.
+
+**Key Features**:
+- Code-first review for slow rendering, janky scrolling, and excessive updates
+- Targets common SwiftUI pitfalls (unstable identity, heavy `body`, layout thrash)
+- Provides remediation guidance and refactor suggestions
+- Offers a user-run Instruments workflow when needed
+
+**Use When**: You need to diagnose SwiftUI performance issues, improve view/update efficiency, or get guidance on profiling with Instruments.
+
+---
+
 ## Usage
 
 Each skill is self-contained with its own documentation. Refer to the `SKILL.md` file in each skill's directory for detailed workflows, guidelines, and examples.
